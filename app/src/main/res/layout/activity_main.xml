@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:background="@color/bglogin"
+    android:gravity="center"
+    android:orientation ="vertical"
+    tools:context="com.example.atul.login.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:background="@color/white"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:padding="10sp"
+            android:singleLine="true"
+            android:textColor="@color/inputlogin"/>
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:background="@color/white"
+            android:hint="@string/hint_pass"
+            android:inputType="textPassword"
+            android:padding="10sp"
+            android:textColor="@color/inputlogin"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:background="@color/btn_bg"
+            android:text="@string/btn_login"
+            android:textColor="@color/inputlogin"/>
+
+
+        <Button
+            android:id="@+id/toregister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:background="@null"
+            android:text="@string/to_register"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
