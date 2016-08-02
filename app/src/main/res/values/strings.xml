@@ -3,5 +3,8 @@
     <string name="hint_email">Email</string>
     <string name="hint_pass">Password</string>
     <string name="btn_login">Login</string>
+    <string name="hint_name">Name</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_link_to_login">Already Registered! Login me.</string>
     <string name="to_register">Not a member? Sign up now. </string>
 </resources>
